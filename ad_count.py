@@ -6,14 +6,14 @@ import openai
 # Set FFmpeg binary path
 os.environ["FFMPEG_BINARY"] = r"C:\ffmpeg\ffmpeg.exe"
 
-openai.api_key = "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"
+openai.api_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxWxNXyLyg4qgJbRAJR30MxRzDYPj_5P0a2xxxxxxxxxxxxxxxxxxxxxxxxxxxLTtD48B4vDIIA"
 # Load Whisper model
 model = whisper.load_model("base")
 
 # MySQL server connection details
 host = "localhost"  # Change to your server's IP or domain if not local
 user = "root"  # Replace with your MySQL username
-password = "487606"  # Replace with your MySQL password
+password = "xxxxxx6xxxxxxx"  # Replace with your MySQL password
 database = "mp4"  # Replace with your database name
 
 # Connect to the MySQL server
