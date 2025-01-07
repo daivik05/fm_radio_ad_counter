@@ -1,0 +1,19 @@
+/* Define custom fonts using @font-face */
+@font-face {
+    font-family: 'Crima';
+    src: url('/static/fonts/Crima.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'TaborSinfonia';
+    src: url('/static/fonts/TaborSinfonia_PERSONAL_USE_ONLY.ttf') format('truetype');
+}
+
+/* Apply the custom fonts */
+h1 {
+    font-family: 'Crima', sans-serif;
+}
+
+body, p, .stMarkdown, .stButton {
+    font-family: 'TaborSinfonia', sans-serif;
+}
