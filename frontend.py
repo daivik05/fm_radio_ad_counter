@@ -20,7 +20,7 @@ if uploaded_file is not None:
 
     # Send the file to the Flask API
     files = {'file': (uploaded_file.name, uploaded_file, uploaded_file.type)}
-    response = requests.post("http://127.0.0.1:5000/upload", files=files)
+    response = requests.post("http://127.0.0.1:8000/upload", files=files)
 
     if response.status_code == 200:
         result = response.json()

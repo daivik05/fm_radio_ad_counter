@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'TaborSinfonia';
-    src: url('/static/fonts/TaborSinfonia_PERSONAL_USE_ONLY.ttf') format('truetype');
+    src: url('/static/fonts/TaborSinfonia_PERSONAL_USE_ONLY.ttf') format('opentype');
 }
 
 /* Apply the custom fonts */
